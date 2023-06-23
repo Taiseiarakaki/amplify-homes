@@ -1,7 +1,7 @@
 export const schema = {
     "models": {
-        "Todos": {
-            "name": "Todos",
+        "Home": {
+            "name": "Home",
             "fields": {
                 "id": {
                     "name": "id",
@@ -10,17 +10,66 @@ export const schema = {
                     "isRequired": true,
                     "attributes": []
                 },
-                "name": {
-                    "name": "name",
+                "image_url": {
+                    "name": "image_url",
                     "isArray": false,
                     "type": "String",
                     "isRequired": false,
                     "attributes": []
                 },
-                "email": {
-                    "name": "email",
+                "price": {
+                    "name": "price",
+                    "isArray": false,
+                    "type": "Float",
+                    "isRequired": false,
+                    "attributes": []
+                },
+                "untitledfield": {
+                    "name": "untitledfield",
                     "isArray": false,
                     "type": "String",
+                    "isRequired": false,
+                    "attributes": []
+                },
+                "password": {
+                    "name": "password",
+                    "isArray": false,
+                    "type": "String",
+                    "isRequired": false,
+                    "attributes": []
+                },
+                "number": {
+                    "name": "number",
+                    "isArray": false,
+                    "type": "Int",
+                    "isRequired": false,
+                    "attributes": []
+                },
+                "part_number": {
+                    "name": "part_number",
+                    "isArray": false,
+                    "type": "String",
+                    "isRequired": false,
+                    "attributes": []
+                },
+                "inventory": {
+                    "name": "inventory",
+                    "isArray": false,
+                    "type": "Int",
+                    "isRequired": false,
+                    "attributes": []
+                },
+                "stock_input": {
+                    "name": "stock_input",
+                    "isArray": false,
+                    "type": "String",
+                    "isRequired": false,
+                    "attributes": []
+                },
+                "stock_number_input": {
+                    "name": "stock_number_input",
+                    "isArray": false,
+                    "type": "Int",
                     "isRequired": false,
                     "attributes": []
                 },
@@ -42,7 +91,7 @@ export const schema = {
                 }
             },
             "syncable": true,
-            "pluralName": "Todos",
+            "pluralName": "Homes",
             "attributes": [
                 {
                     "type": "model",
@@ -70,5 +119,5 @@ export const schema = {
     "enums": {},
     "nonModels": {},
     "codegenVersion": "3.4.4",
-    "version": "e4dff8d242b13901cea333200e3f595f"
+    "version": "b2b81a971b731eda6422251ccec7e8d9"
 };
