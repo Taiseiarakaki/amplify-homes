@@ -1,0 +1,13 @@
+type Home @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  image_url: String
+  price: Float
+  untitledfield: String
+  password: String
+  number: Int
+  part_number: String
+  inventory: Int
+  stock_input: String
+  stock_number_input: Int
+}
+ 

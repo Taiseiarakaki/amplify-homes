@@ -2,28 +2,42 @@ import { ModelInit, MutableModel } from "@aws-amplify/datastore";
 // @ts-ignore
 import { LazyLoading, LazyLoadingDisabled } from "@aws-amplify/datastore";
 
-type TodosMetaData = {
+type HomeMetaData = {
   readOnlyFields: 'createdAt' | 'updatedAt';
 }
 
-type EagerTodos = {
+type EagerHome = {
   readonly id: string;
-  readonly name?: string | null;
-  readonly email?: string | null;
+  readonly image_url?: string | null;
+  readonly price?: number | null;
+  readonly untitledfield?: string | null;
+  readonly password?: string | null;
+  readonly number?: number | null;
+  readonly part_number?: string | null;
+  readonly inventory?: number | null;
+  readonly stock_input?: string | null;
+  readonly stock_number_input?: number | null;
   readonly createdAt?: string | null;
   readonly updatedAt?: string | null;
 }
 
-type LazyTodos = {
+type LazyHome = {
   readonly id: string;
-  readonly name?: string | null;
-  readonly email?: string | null;
+  readonly image_url?: string | null;
+  readonly price?: number | null;
+  readonly untitledfield?: string | null;
+  readonly password?: string | null;
+  readonly number?: number | null;
+  readonly part_number?: string | null;
+  readonly inventory?: number | null;
+  readonly stock_input?: string | null;
+  readonly stock_number_input?: number | null;
   readonly createdAt?: string | null;
   readonly updatedAt?: string | null;
 }
 
-export declare type Todos = LazyLoading extends LazyLoadingDisabled ? EagerTodos : LazyTodos
+export declare type Home = LazyLoading extends LazyLoadingDisabled ? EagerHome : LazyHome
 
-export declare const Todos: (new (init: ModelInit<Todos, TodosMetaData>) => Todos) & {
-  copyOf(source: Todos, mutator: (draft: MutableModel<Todos, TodosMetaData>) => MutableModel<Todos, TodosMetaData> | void): Todos;
+export declare const Home: (new (init: ModelInit<Home, HomeMetaData>) => Home) & {
+  copyOf(source: Home, mutator: (draft: MutableModel<Home, HomeMetaData>) => MutableModel<Home, HomeMetaData> | void): Home;
 }

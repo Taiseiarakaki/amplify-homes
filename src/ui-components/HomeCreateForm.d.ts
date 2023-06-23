@@ -13,24 +13,39 @@ export declare type ValidationResponse = {
 };
 export declare type ValidationFunction<T> = (value: T, validationResponse: ValidationResponse) => ValidationResponse | Promise<ValidationResponse>;
 export declare type HomeCreateFormInputValues = {
-    name?: string;
     image_url?: string;
-    bounty?: string;
-    birthday?: string;
+    price?: number;
+    untitledfield?: string;
+    password?: string;
+    number?: number;
+    part_number?: string;
+    inventory?: number;
+    stock_input?: string;
+    stock_number_input?: number;
 };
 export declare type HomeCreateFormValidationValues = {
-    name?: ValidationFunction<string>;
     image_url?: ValidationFunction<string>;
-    bounty?: ValidationFunction<string>;
-    birthday?: ValidationFunction<string>;
+    price?: ValidationFunction<number>;
+    untitledfield?: ValidationFunction<string>;
+    password?: ValidationFunction<string>;
+    number?: ValidationFunction<number>;
+    part_number?: ValidationFunction<string>;
+    inventory?: ValidationFunction<number>;
+    stock_input?: ValidationFunction<string>;
+    stock_number_input?: ValidationFunction<number>;
 };
 export declare type PrimitiveOverrideProps<T> = Partial<T> & React.DOMAttributes<HTMLDivElement>;
 export declare type HomeCreateFormOverridesProps = {
     HomeCreateFormGrid?: PrimitiveOverrideProps<GridProps>;
-    name?: PrimitiveOverrideProps<TextFieldProps>;
     image_url?: PrimitiveOverrideProps<TextFieldProps>;
-    bounty?: PrimitiveOverrideProps<TextFieldProps>;
-    birthday?: PrimitiveOverrideProps<TextFieldProps>;
+    price?: PrimitiveOverrideProps<TextFieldProps>;
+    untitledfield?: PrimitiveOverrideProps<TextFieldProps>;
+    password?: PrimitiveOverrideProps<TextFieldProps>;
+    number?: PrimitiveOverrideProps<TextFieldProps>;
+    part_number?: PrimitiveOverrideProps<TextFieldProps>;
+    inventory?: PrimitiveOverrideProps<TextFieldProps>;
+    stock_input?: PrimitiveOverrideProps<TextFieldProps>;
+    stock_number_input?: PrimitiveOverrideProps<TextFieldProps>;
 } & EscapeHatchProps;
 export declare type HomeCreateFormProps = React.PropsWithChildren<{
     overrides?: HomeCreateFormOverridesProps | undefined | null;

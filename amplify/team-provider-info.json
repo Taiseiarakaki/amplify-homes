@@ -1,16 +1,15 @@
 {
   "master": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-amplifyhomes-master-124532-authRole",
-      "UnauthRoleArn": "arn:aws:iam::711556954185:role/amplify-amplifyhomes-master-124532-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::711556954185:role/amplify-amplifyhomes-master-124532-authRole",
-      "Region": "ap-northeast-2",
-      "DeploymentBucketName": "amplify-amplifyhomes-master-124532-deployment",
-      "UnauthRoleName": "amplify-amplifyhomes-master-124532-unauthRole",
-      "StackName": "amplify-amplifyhomes-master-124532",
-      "StackId": "arn:aws:cloudformation:ap-northeast-2:711556954185:stack/amplify-amplifyhomes-master-124532/33da6a60-fbc3-11ed-b21e-06ff2b3480e2",
-      "AmplifyAppId": "d2cuiqmj5lvmnb",
-      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-amplifyhomes-master-124532-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+      "AuthRoleName": "amplify-amplifyhomes-master-05829-authRole",
+      "UnauthRoleArn": "arn:aws:iam::711556954185:role/amplify-amplifyhomes-master-05829-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::711556954185:role/amplify-amplifyhomes-master-05829-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-amplifyhomes-master-05829-deployment",
+      "UnauthRoleName": "amplify-amplifyhomes-master-05829-unauthRole",
+      "StackName": "amplify-amplifyhomes-master-05829",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:711556954185:stack/amplify-amplifyhomes-master-05829/bf9823b0-0660-11ee-bc47-06c9c9c0bb60",
+      "AmplifyAppId": "d3joii6806x0sn"
     },
     "categories": {
       "auth": {
@@ -20,7 +19,8 @@
       "storage": {
         "s3amplifyhomesstorage855d51b1": {},
         "sakumotoApp": {},
-        "sakumotoAppUser": {}
+        "sakumotoAppUser": {},
+        "TaiseiAppUser": {}
       },
       "function": {
         "sakumotodailyreportc9355e11": {},
@@ -45,7 +45,8 @@
       "api": {
         "LambdaTest": {},
         "todoApps": {},
-        "sakumotoAppUser": {}
+        "sakumotoAppUser": {},
+        "amplifyhomes": {}
       }
     }
   }
