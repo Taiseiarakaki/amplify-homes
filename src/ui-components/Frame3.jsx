@@ -12,8 +12,8 @@ export default function Frame3(props) {
   const { overrides, ...rest } = props;
   return (
     <View
-      width="781px"
-      height="535px"
+      width="1728px"
+      height="1117px"
       display="block"
       gap="unset"
       alignItems="unset"
@@ -25,8 +25,8 @@ export default function Frame3(props) {
       {...rest}
     >
       <View
-        width="781px"
-        height="535px"
+        width="1728px"
+        height="1117px"
         display="block"
         gap="unset"
         alignItems="unset"
@@ -40,8 +40,8 @@ export default function Frame3(props) {
         {...getOverrideProps(overrides, "Group 2")}
       >
         <View
-          width="24.09px"
-          height="22.85px"
+          width="53.31px"
+          height="47.7px"
           display="block"
           gap="unset"
           alignItems="unset"
@@ -56,8 +56,8 @@ export default function Frame3(props) {
           {...getOverrideProps(overrides, "mdi:gas-tank-outline")}
         ></View>
         <View
-          width="24.09px"
-          height="22.85px"
+          width="53.31px"
+          height="47.7px"
           display="block"
           gap="unset"
           alignItems="unset"
@@ -72,17 +72,17 @@ export default function Frame3(props) {
           {...getOverrideProps(overrides, "mdi:gas-tank")}
         ></View>
         <Icon
-          width="732.81px"
-          height="535px"
-          viewBox={{ minX: 0, minY: 0, width: 732.8148803710938, height: 535 }}
+          width="1728px"
+          height="1117px"
+          viewBox={{ minX: 0, minY: 0, width: 1728, height: 1117 }}
           paths={[
             {
-              d: "M0 0L0 -1L-1 -1L-1 0L0 0ZM732.815 0L733.815 0L733.815 -1L732.815 -1L732.815 0ZM732.815 535L732.815 536L733.815 536L733.815 535L732.815 535ZM0 535L-1 535L-1 536L0 536L0 535ZM0 1L732.815 1L732.815 -1L0 -1L0 1ZM731.815 0L731.815 535L733.815 535L733.815 0L731.815 0ZM732.815 534L0 534L0 536L732.815 536L732.815 534ZM1 535L1 0L-1 0L-1 535L1 535Z",
+              d: "M0 0L0 -1L-1 -1L-1 0L0 0ZM1728 0L1729 0L1729 -1L1728 -1L1728 0ZM1728 1117L1728 1118L1729 1118L1729 1117L1728 1117ZM0 1117L-1 1117L-1 1118L0 1118L0 1117ZM0 1L1728 1L1728 -1L0 -1L0 1ZM1727 0L1727 1117L1729 1117L1729 0L1727 0ZM1728 1116L0 1116L0 1118L1728 1118L1728 1116ZM1 1117L1 0L-1 0L-1 1117L1 1117Z",
               stroke: "rgba(0,0,0,1)",
               fillRule: "nonzero",
               strokeWidth: 1,
             },
-            { d: "M0 0L732.815 0L732.815 535L0 535L0 0Z", fillRule: "nonzero" },
+            { d: "M0 0L1728 0L1728 1117L0 1117L0 0Z", fillRule: "nonzero" },
           ]}
           display="block"
           gap="unset"
@@ -92,21 +92,93 @@ export default function Frame3(props) {
           top="0%"
           bottom="0%"
           left="0.77%"
-          right="5.4%"
+          right="-0.77%"
           {...getOverrideProps(overrides, "Rectangle 1")}
         ></Icon>
         <Icon
-          width="147.57px"
-          height="84.72px"
+          width="1728px"
+          height="1117px"
+          viewBox={{ minX: 0, minY: 0, width: 1728, height: 1117 }}
+          paths={[
+            {
+              d: "M0 0L0 -1L-1 -1L-1 0L0 0ZM1728 0L1729 0L1729 -1L1728 -1L1728 0ZM1728 1117L1728 1118L1729 1118L1729 1117L1728 1117ZM0 1117L-1 1117L-1 1118L0 1118L0 1117ZM0 1L1728 1L1728 -1L0 -1L0 1ZM1727 0L1727 1117L1729 1117L1729 0L1727 0ZM1728 1116L0 1116L0 1118L1728 1118L1728 1116ZM1 1117L1 0L-1 0L-1 1117L1 1117Z",
+              stroke: "rgba(0,0,0,1)",
+              fillRule: "nonzero",
+              strokeWidth: 1,
+            },
+            { d: "M0 0L1728 0L1728 1117L0 1117L0 0Z", fillRule: "nonzero" },
+          ]}
+          display="block"
+          gap="unset"
+          alignItems="unset"
+          justifyContent="unset"
+          position="absolute"
+          top="0%"
+          bottom="0%"
+          left="0.77%"
+          right="-0.77%"
+          {...getOverrideProps(overrides, "Rectangle 21174")}
+        ></Icon>
+        <Icon
+          width="1728px"
+          height="1117px"
+          viewBox={{ minX: 0, minY: 0, width: 1728, height: 1117 }}
+          paths={[
+            {
+              d: "M0 0L0 -1L-1 -1L-1 0L0 0ZM1728 0L1729 0L1729 -1L1728 -1L1728 0ZM1728 1117L1728 1118L1729 1118L1729 1117L1728 1117ZM0 1117L-1 1117L-1 1118L0 1118L0 1117ZM0 1L1728 1L1728 -1L0 -1L0 1ZM1727 0L1727 1117L1729 1117L1729 0L1727 0ZM1728 1116L0 1116L0 1118L1728 1118L1728 1116ZM1 1117L1 0L-1 0L-1 1117L1 1117Z",
+              stroke: "rgba(0,0,0,1)",
+              fillRule: "nonzero",
+              strokeWidth: 1,
+            },
+            { d: "M0 0L1728 0L1728 1117L0 1117L0 0Z", fillRule: "nonzero" },
+          ]}
+          display="block"
+          gap="unset"
+          alignItems="unset"
+          justifyContent="unset"
+          position="absolute"
+          top="0%"
+          bottom="0%"
+          left="0.77%"
+          right="-0.77%"
+          {...getOverrideProps(overrides, "Rectangle 31175")}
+        ></Icon>
+        <Icon
+          width="1728px"
+          height="1117px"
+          viewBox={{ minX: 0, minY: 0, width: 1728, height: 1117 }}
+          paths={[
+            {
+              d: "M0 0L0 -1L-1 -1L-1 0L0 0ZM1728 0L1729 0L1729 -1L1728 -1L1728 0ZM1728 1117L1728 1118L1729 1118L1729 1117L1728 1117ZM0 1117L-1 1117L-1 1118L0 1118L0 1117ZM0 1L1728 1L1728 -1L0 -1L0 1ZM1727 0L1727 1117L1729 1117L1729 0L1727 0ZM1728 1116L0 1116L0 1118L1728 1118L1728 1116ZM1 1117L1 0L-1 0L-1 1117L1 1117Z",
+              stroke: "rgba(0,0,0,1)",
+              fillRule: "nonzero",
+              strokeWidth: 1,
+            },
+            { d: "M0 0L1728 0L1728 1117L0 1117L0 0Z", fillRule: "nonzero" },
+          ]}
+          display="block"
+          gap="unset"
+          alignItems="unset"
+          justifyContent="unset"
+          position="absolute"
+          top="0%"
+          bottom="0%"
+          left="0.77%"
+          right="-0.77%"
+          {...getOverrideProps(overrides, "Rectangle 4")}
+        ></Icon>
+        <Icon
+          width="326.5px"
+          height="176.89px"
           viewBox={{
             minX: 0,
             minY: 0,
-            width: 147.56683349609375,
-            height: 84.72419738769531,
+            width: 326.4986572265625,
+            height: 176.89141845703125,
           }}
           paths={[
             {
-              d: "M107.321 14.1207L100.614 14.1207L100.614 9.4138C100.614 4.23621 94.5769 0 87.1986 0L60.3682 0C52.9899 0 46.9531 4.23621 46.9531 9.4138L46.9531 14.1207L40.2455 14.1207C18.0434 14.1207 0 26.7823 0 42.3621C0 57.9419 18.0434 70.6035 40.2455 70.6035L40.2455 84.7242L53.6607 84.7242L53.6607 70.6035L93.9062 70.6035L93.9062 84.7242L107.321 84.7242L107.321 70.6035C129.523 70.6035 147.567 57.9419 147.567 42.3621C147.567 26.7823 129.523 14.1207 107.321 14.1207ZM60.3682 9.4138L87.1986 9.4138L87.1986 14.1207L60.3682 14.1207L60.3682 9.4138Z",
+              d: "M237.454 29.4819L222.613 29.4819L222.613 19.6546C222.613 8.84457 209.256 0 192.931 0L133.568 0C117.243 0 103.886 8.84457 103.886 19.6546L103.886 29.4819L89.0451 29.4819C39.9219 29.4819 0 55.9174 0 88.4457C0 120.974 39.9219 147.41 89.0451 147.41L89.0451 176.891L118.727 176.891L118.727 147.41L207.772 147.41L207.772 176.891L237.454 176.891L237.454 147.41C286.577 147.41 326.499 120.974 326.499 88.4457C326.499 55.9174 286.577 29.4819 237.454 29.4819ZM133.568 19.6546L192.931 19.6546L192.931 29.4819L133.568 29.4819L133.568 19.6546Z",
               fill: "rgba(23,235,222,1)",
               fillRule: "nonzero",
             },
@@ -123,17 +195,17 @@ export default function Frame3(props) {
           {...getOverrideProps(overrides, "Vector161")}
         ></Icon>
         <Icon
-          width="147.57px"
-          height="84.72px"
+          width="326.5px"
+          height="176.89px"
           viewBox={{
             minX: 0,
             minY: 0,
-            width: 147.56683349609375,
-            height: 84.72419738769531,
+            width: 326.4986572265625,
+            height: 176.8914794921875,
           }}
           paths={[
             {
-              d: "M107.321 14.1207L100.614 14.1207L100.614 9.4138C100.614 4.23621 94.5769 0 87.1986 0L60.3682 0C52.9899 0 46.9531 4.23621 46.9531 9.4138L46.9531 14.1207L40.2455 14.1207C18.0434 14.1207 0 26.7823 0 42.3621C0 57.9419 18.0434 70.6035 40.2455 70.6035L40.2455 84.7242L53.6607 84.7242L53.6607 70.6035L93.9062 70.6035L93.9062 84.7242L107.321 84.7242L107.321 70.6035C129.523 70.6035 147.567 57.9419 147.567 42.3621C147.567 26.7823 129.523 14.1207 107.321 14.1207ZM60.3682 9.4138L87.1986 9.4138L87.1986 14.1207L60.3682 14.1207L60.3682 9.4138ZM107.321 61.1897L40.2455 61.1897C25.4217 61.1897 13.4152 52.7643 13.4152 42.3621C13.4152 31.9598 25.4217 23.5345 40.2455 23.5345L107.321 23.5345C122.145 23.5345 134.152 31.9598 134.152 42.3621C134.152 52.7643 122.145 61.1897 107.321 61.1897Z",
+              d: "M237.454 29.4819L222.613 29.4819L222.613 19.6546C222.613 8.84457 209.256 0 192.931 0L133.568 0C117.243 0 103.886 8.84457 103.886 19.6546L103.886 29.4819L89.0451 29.4819C39.9219 29.4819 0 55.9174 0 88.4457C0 120.974 39.9219 147.41 89.0451 147.41L89.0451 176.891L118.727 176.891L118.727 147.41L207.772 147.41L207.772 176.891L237.454 176.891L237.454 147.41C286.577 147.41 326.499 120.974 326.499 88.4457C326.499 55.9174 286.577 29.4819 237.454 29.4819ZM133.568 19.6546L192.931 19.6546L192.931 29.4819L133.568 29.4819L133.568 19.6546ZM237.454 127.755L89.0451 127.755C56.2468 127.755 29.6817 110.164 29.6817 88.4457C29.6817 66.7274 56.2468 49.1365 89.0451 49.1365L237.454 49.1365C270.252 49.1365 296.817 66.7274 296.817 88.4457C296.817 110.164 270.252 127.755 237.454 127.755Z",
               fill: "rgba(0,0,0,1)",
               fillRule: "nonzero",
             },
@@ -150,8 +222,8 @@ export default function Frame3(props) {
           {...getOverrideProps(overrides, "Vector162")}
         ></Icon>
         <View
-          width="171px"
-          height="42px"
+          width="378.35px"
+          height="87.69px"
           display="block"
           gap="unset"
           alignItems="unset"
@@ -165,8 +237,8 @@ export default function Frame3(props) {
           {...getOverrideProps(overrides, "part_number4643")}
         >
           <View
-            width="171px"
-            height="42px"
+            width="378.35px"
+            height="87.69px"
             display="block"
             gap="unset"
             alignItems="unset"
@@ -183,23 +255,23 @@ export default function Frame3(props) {
         </View>
         <Text
           fontFamily="Glory"
-          fontSize="32px"
+          fontSize="48px"
           fontWeight="400"
-          color="rgba(255,255,255,1)"
-          lineHeight="41.599998474121094px"
+          color="rgba(0,0,0,1)"
+          lineHeight="62.39999771118164px"
           textAlign="center"
           display="block"
           direction="column"
           justifyContent="unset"
-          width="108px"
-          height="37px"
+          width="371px"
+          height="77px"
           gap="unset"
           alignItems="unset"
           position="absolute"
-          top="27.85%"
-          bottom="65.23%"
-          left="43.15%"
-          right="43.02%"
+          top="17.01%"
+          bottom="76.1%"
+          left="39.06%"
+          right="39.47%"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
           children="品番"
@@ -207,23 +279,47 @@ export default function Frame3(props) {
         ></Text>
         <Text
           fontFamily="Glory"
-          fontSize="32px"
+          fontSize="48px"
           fontWeight="400"
-          color="rgba(255,255,255,1)"
-          lineHeight="41.599998474121094px"
+          color="rgba(0,0,0,1)"
+          lineHeight="62.39999771118164px"
           textAlign="center"
           display="block"
           direction="column"
           justifyContent="unset"
-          width="121px"
-          height="39px"
+          width="267.72px"
+          height="81.43px"
           gap="unset"
           alignItems="unset"
           position="absolute"
-          top="53.83%"
-          bottom="38.88%"
-          left="42.25%"
-          right="42.25%"
+          top="59.09%"
+          bottom="33.62%"
+          left="42.36%"
+          right="42.15%"
+          padding="0px 0px 0px 0px"
+          whiteSpace="pre-wrap"
+          children="適正在庫数&#xA;"
+          {...getOverrideProps(overrides, "\u9069\u6B63\u5728\u5EAB\u6570")}
+        ></Text>
+        <Text
+          fontFamily="Glory"
+          fontSize="48px"
+          fontWeight="400"
+          color="rgba(0,0,0,1)"
+          lineHeight="62.39999771118164px"
+          textAlign="center"
+          display="block"
+          direction="column"
+          justifyContent="unset"
+          width="267.72px"
+          height="81.43px"
+          gap="unset"
+          alignItems="unset"
+          position="absolute"
+          top="35.72%"
+          bottom="56.99%"
+          left="42.36%"
+          right="42.15%"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
           children="在庫数"
@@ -231,46 +327,46 @@ export default function Frame3(props) {
         ></Text>
         <Text
           fontFamily="Inter"
-          fontSize="32px"
+          fontSize="48px"
           fontWeight="400"
           color="rgba(0,0,0,1)"
-          lineHeight="41.599998474121094px"
+          lineHeight="62.39999771118164px"
           textAlign="center"
           display="block"
           direction="column"
           justifyContent="unset"
-          width="114px"
-          height="27px"
+          width="252.23px"
+          height="56.37px"
           gap="unset"
           alignItems="unset"
           position="absolute"
-          top="83.93%"
-          bottom="11.03%"
-          left="43.66%"
-          right="41.74%"
+          top="85.32%"
+          bottom="9.64%"
+          left="42.82%"
+          right="42.58%"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
           children="戻る&#xA;"
           {...getOverrideProps(overrides, "\u623B\u308B")}
         ></Text>
         <View
-          width="277px"
-          height="37px"
+          width="612.88px"
+          height="77.25px"
           display="block"
           gap="unset"
           alignItems="unset"
           justifyContent="unset"
           position="absolute"
-          top="66.36%"
-          bottom="26.73%"
-          left="33.29%"
-          right="31.24%"
+          top="44.4%"
+          bottom="48.68%"
+          left="33.04%"
+          right="31.49%"
           padding="0px 0px 0px 0px"
           {...getOverrideProps(overrides, "inventory")}
         >
           <View
-            width="277px"
-            height="37px"
+            width="612.88px"
+            height="77.25px"
             display="block"
             gap="unset"
             alignItems="unset"
@@ -282,27 +378,43 @@ export default function Frame3(props) {
             right="0%"
             padding="0px 0px 0px 0px"
             backgroundColor="rgba(182,176,176,1)"
-            {...getOverrideProps(overrides, "Rectangle 24638")}
+            {...getOverrideProps(overrides, "Rectangle 31177")}
           ></View>
         </View>
         <View
-          width="277px"
-          height="37px"
+          width="612.88px"
+          height="77.25px"
           display="block"
           gap="unset"
           alignItems="unset"
           justifyContent="unset"
           position="absolute"
-          top="41.5%"
-          bottom="51.59%"
-          left="32.39%"
-          right="32.14%"
+          top="66.34%"
+          bottom="26.75%"
+          left="33.04%"
+          right="31.49%"
+          padding="0px 0px 0px 0px"
+          backgroundColor="rgba(182,176,176,1)"
+          {...getOverrideProps(overrides, "Rectangle 24638")}
+        ></View>
+        <View
+          width="612.88px"
+          height="77.25px"
+          display="block"
+          gap="unset"
+          alignItems="unset"
+          justifyContent="unset"
+          position="absolute"
+          top="23.9%"
+          bottom="69.18%"
+          left="32.41%"
+          right="32.13%"
           padding="0px 0px 0px 0px"
           {...getOverrideProps(overrides, "part_number4641")}
         >
           <View
-            width="277px"
-            height="37px"
+            width="612.88px"
+            height="77.25px"
             display="block"
             gap="unset"
             alignItems="unset"

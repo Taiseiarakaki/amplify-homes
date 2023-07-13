@@ -78,6 +78,22 @@
         }
       ]
     },
+    "AMPLIFY_function_taiseiarakakiappe52c7405_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "taiseiarakakiappe52c7405"
+        }
+      ]
+    },
+    "AMPLIFY_function_taiseiarakakiappe52c7405_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "taiseiarakakiappe52c7405"
+        }
+      ]
+    },
     "AMPLIFY_function_todoFunction_deploymentBucketName": {
       "usedBy": [
         {

@@ -13,11 +13,13 @@ export declare type Rectangle5OverridesProps = {
     "Rectangle 1"?: PrimitiveOverrideProps<ViewProps>;
     stock_number_input4654?: PrimitiveOverrideProps<ViewProps>;
     stock_number_input4655?: PrimitiveOverrideProps<ViewProps>;
+    "\u9069\u6B63\u5728\u5EAB\u6570"?: PrimitiveOverrideProps<TextProps>;
     "\u5728\u5EAB\u6570\u5165\u529B"?: PrimitiveOverrideProps<TextProps>;
     "\u54C1\u756A"?: PrimitiveOverrideProps<TextProps>;
     "\u623B\u308B"?: PrimitiveOverrideProps<TextProps>;
     stock_number_input4648?: PrimitiveOverrideProps<ViewProps>;
     stock_number_input4649?: PrimitiveOverrideProps<ViewProps>;
+    stock_number_input11710?: PrimitiveOverrideProps<ViewProps>;
     stock_input?: PrimitiveOverrideProps<ViewProps>;
     part_number_input?: PrimitiveOverrideProps<ViewProps>;
 } & EscapeHatchProps;

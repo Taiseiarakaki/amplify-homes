@@ -9,8 +9,7 @@
       "UnauthRoleName": "amplify-amplifyhomes-master-05829-unauthRole",
       "StackName": "amplify-amplifyhomes-master-05829",
       "StackId": "arn:aws:cloudformation:ap-southeast-1:711556954185:stack/amplify-amplifyhomes-master-05829/bf9823b0-0660-11ee-bc47-06c9c9c0bb60",
-      "AmplifyAppId": "d3joii6806x0sn",
-      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-amplifyhomes-master-05829-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+      "AmplifyAppId": "d3joii6806x0sn"
     },
     "categories": {
       "auth": {
@@ -44,7 +43,10 @@
           "s3Key": "amplify-builds/sakumotoAppUser-62594f3642744f463044-build.zip"
         },
         "TaiseiAppUser": {},
-        "taiseiarakakiappe52c7405": {}
+        "taiseiarakakiappe52c7405": {
+          "deploymentBucketName": "amplify-amplifyhomes-master-05829-deployment",
+          "s3Key": "amplify-builds/taiseiarakakiappe52c7405-4a4f33455a416a584f53-build.zip"
+        }
       },
       "api": {
         "LambdaTest": {},

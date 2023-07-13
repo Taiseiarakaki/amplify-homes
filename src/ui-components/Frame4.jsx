@@ -12,8 +12,8 @@ export default function Frame4(props) {
   const { overrides, ...rest } = props;
   return (
     <View
-      width="647px"
-      height="524px"
+      width="1728px"
+      height="1117px"
       display="block"
       gap="unset"
       alignItems="unset"
@@ -25,8 +25,8 @@ export default function Frame4(props) {
       {...rest}
     >
       <View
-        width="647px"
-        height="524px"
+        width="1728px"
+        height="1117px"
         display="block"
         gap="unset"
         alignItems="unset"
@@ -35,12 +35,13 @@ export default function Frame4(props) {
         position="absolute"
         top="0px"
         left="0px"
+        boxShadow="0px 4px 4px rgba(0, 0, 0, 0.25)"
         padding="0px 0px 0px 0px"
         {...getOverrideProps(overrides, "Frame 3")}
       >
         <View
-          width="647px"
-          height="524px"
+          width="1728px"
+          height="1117px"
           display="block"
           gap="unset"
           alignItems="unset"
@@ -55,8 +56,8 @@ export default function Frame4(props) {
           {...getOverrideProps(overrides, "Rectangle 4")}
         ></View>
         <View
-          width="340px"
-          height="115px"
+          width="908.07px"
+          height="245.14px"
           display="block"
           gap="unset"
           alignItems="unset"
@@ -70,8 +71,8 @@ export default function Frame4(props) {
           {...getOverrideProps(overrides, "stock_input_button")}
         >
           <View
-            width="340px"
-            height="115px"
+            width="908.07px"
+            height="245.14px"
             display="block"
             gap="unset"
             alignItems="unset"
@@ -87,16 +88,16 @@ export default function Frame4(props) {
           ></View>
           <Text
             fontFamily="Inter"
-            fontSize="24px"
+            fontSize="48px"
             fontWeight="400"
             color="rgba(0,0,0,1)"
-            lineHeight="31.19999885559082px"
+            lineHeight="62.39999771118164px"
             textAlign="center"
             display="block"
             direction="column"
             justifyContent="unset"
-            width="219px"
-            height="55px"
+            width="584.9px"
+            height="117.24px"
             gap="unset"
             alignItems="unset"
             position="absolute"
@@ -111,8 +112,8 @@ export default function Frame4(props) {
           ></Text>
         </View>
         <View
-          width="340px"
-          height="115px"
+          width="908.07px"
+          height="245.14px"
           display="block"
           gap="unset"
           alignItems="unset"
@@ -126,12 +127,17 @@ export default function Frame4(props) {
           {...getOverrideProps(overrides, "stock_confirm_button")}
         >
           <Icon
-            width="340px"
-            height="115px"
-            viewBox={{ minX: 0, minY: 0, width: 340, height: 115 }}
+            width="908.07px"
+            height="245.14px"
+            viewBox={{
+              minX: 0,
+              minY: 0,
+              width: 908.0679931640625,
+              height: 245.14312744140625,
+            }}
             paths={[
               {
-                d: "M0 0L340 0L340 115L0 115L0 0Z",
+                d: "M0 0L908.068 0L908.068 245.143L0 245.143L0 0Z",
                 fill: "rgba(217,217,217,1)",
                 fillRule: "nonzero",
               },
@@ -149,16 +155,16 @@ export default function Frame4(props) {
           ></Icon>
           <Text
             fontFamily="Inter"
-            fontSize="24px"
+            fontSize="48px"
             fontWeight="400"
             color="rgba(0,0,0,1)"
-            lineHeight="31.19999885559082px"
+            lineHeight="62.39999771118164px"
             textAlign="center"
             display="block"
             direction="column"
             justifyContent="unset"
-            width="237px"
-            height="39px"
+            width="632.98px"
+            height="83.14px"
             gap="unset"
             alignItems="unset"
             position="absolute"
