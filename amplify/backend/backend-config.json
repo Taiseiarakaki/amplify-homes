@@ -22,6 +22,44 @@
       "service": "AppSync"
     }
   },
+  "auth": {
+    "TaiseiArakakiApp": {
+      "customAuth": false,
+      "dependsOn": [],
+      "frontendAuthConfig": {
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyCharacters": [
+            "REQUIRES_LOWERCASE",
+            "REQUIRES_NUMBERS",
+            "REQUIRES_SYMBOLS",
+            "REQUIRES_UPPERCASE"
+          ],
+          "passwordPolicyMinLength": 8
+        },
+        "signupAttributes": [],
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "Cognito"
+    }
+  },
+  "function": {
+    "taiseiarakakiappe52c7405": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
   "parameters": {
     "AMPLIFY_function_LambdaTest1_deploymentBucketName": {
       "usedBy": [
@@ -68,6 +106,22 @@
         {
           "category": "function",
           "resourceName": "sakumotoAppUser"
+        }
+      ]
+    },
+    "AMPLIFY_function_taiseiarakakiappe52c7405_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "taiseiarakakiappe52c7405"
+        }
+      ]
+    },
+    "AMPLIFY_function_taiseiarakakiappe52c7405_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "taiseiarakakiappe52c7405"
         }
       ]
     },

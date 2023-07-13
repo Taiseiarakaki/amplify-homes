@@ -14,7 +14,9 @@
     "categories": {
       "auth": {
         "amplifyhomes": {},
-        "userPoolGroups": {}
+        "userPoolGroups": {},
+        "taiseiarakakiapp": {},
+        "TaiseiArakakiApp": {}
       },
       "storage": {
         "s3amplifyhomesstorage855d51b1": {},
@@ -40,6 +42,11 @@
         "sakumotoAppUser": {
           "deploymentBucketName": "amplify-amplifyhomes-master-124532-deployment",
           "s3Key": "amplify-builds/sakumotoAppUser-62594f3642744f463044-build.zip"
+        },
+        "TaiseiAppUser": {},
+        "taiseiarakakiappe52c7405": {
+          "deploymentBucketName": "amplify-amplifyhomes-master-05829-deployment",
+          "s3Key": "amplify-builds/taiseiarakakiappe52c7405-4a4f33455a416a584f53-build.zip"
         }
       },
       "api": {
